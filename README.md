@@ -12,6 +12,11 @@ Place this repository in your colcon_ws workspace
     cd ..
     colcon build
 
+NOTE: when building on a platform with limited resources, the build can get stuck indefinitely, 
+to get around that problem use the sequential build parameter as to not overwhelm the system, like so:
+    
+    colcon build --executor sequential 
+
 Once it has been made and registered by sourcing it to your environment by running:
 
     source ~/colcon_ws/install/local_setup.bash
