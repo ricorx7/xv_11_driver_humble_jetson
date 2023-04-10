@@ -12,7 +12,10 @@ Place this repository in your colcon_ws workspace
     cd ..
     colcon build
 
-Once it has been made and registered by sourcing it to your environment 
+Once it has been made and registered by sourcing it to your environment by running:
+
+source ~/colcon_ws/install/local_setup.bash
+
 you may run it as follows
 
 The following ROS2 parameters are defaulted as below and can be set using parameters
