@@ -14,7 +14,7 @@ Place this repository in your colcon_ws workspace
 
 Once it has been made and registered by sourcing it to your environment by running:
 
-source ~/colcon_ws/install/local_setup.bash
+    source ~/colcon_ws/install/local_setup.bash
 
 you may run it as follows
 
