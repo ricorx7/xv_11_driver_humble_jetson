@@ -1,5 +1,9 @@
 # XV-11 Driver For Lidar From Neato
 
+This specific version is intended to be used on a Jetson Nano in a docker container that is running ROS2 Humble in Ubuntu 18. 
+
+This is a port from https://github.com/muditguptacode/xv_11_driver_humble.  
+
 This is a port of the popular ROS driver called  xv_11_laser_driver
 
 This is a port so most credit goes to original developers.

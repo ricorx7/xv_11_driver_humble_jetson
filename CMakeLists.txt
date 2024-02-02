@@ -14,9 +14,11 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(Boost COMPONENTS system REQUIRED)
 
 add_executable(xv_11_driver src/xv_11_driver.cpp src/xv11_laser.cpp)
 ament_target_dependencies(xv_11_driver rclcpp std_msgs sensor_msgs)
+target_link_libraries(xv_11_driver ${Boost_LIBRARIES})
 
 #target_include_directories(xv_11_driver
 #  PUBLIC
